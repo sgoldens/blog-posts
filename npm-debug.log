@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'rails' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose config Skipping project config: /Users/sg/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData rails
+9 silly fetchNamedPackageData rails
+10 silly mapToRegistry name rails
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'rails',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'rails',
+13 silly mapToRegistry   name: 'rails',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/rails
+15 verbose request uri https://registry.npmjs.org/rails
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 10:22:11 AM
+18 verbose request using bearer token for auth
+19 verbose request id cbd94d271f32a663
+20 verbose etag W/"5285002e-263b"
+21 verbose lastModified Thu, 14 Nov 2013 16:54:06 GMT
+22 http request GET https://registry.npmjs.org/rails
+23 http 304 https://registry.npmjs.org/rails
+24 verbose headers { server: 'nginx/1.10.3',
+24 verbose headers   'last-modified': 'Thu, 14 Nov 2013 16:54:06 GMT',
+24 verbose headers   etag: '"5285002e-263b"',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Wed, 26 Jul 2017 17:22:11 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sjc3647-SJC',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1501089732.688498,VS0,VE120',
+24 verbose headers   vary: 'Accept-Encoding, Accept' }
+25 silly get cb [ 304,
+25 silly get   { server: 'nginx/1.10.3',
+25 silly get     'last-modified': 'Thu, 14 Nov 2013 16:54:06 GMT',
+25 silly get     etag: '"5285002e-263b"',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Wed, 26 Jul 2017 17:22:11 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sjc3647-SJC',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1501089732.688498,VS0,VE120',
+25 silly get     vary: 'Accept-Encoding, Accept' } ]
+26 verbose etag https://registry.npmjs.org/rails from cache
+27 verbose get saving rails to /Users/sg/.npm/registry.npmjs.org/rails/.cache.json
+28 verbose correctMkdir /Users/sg/.npm correctMkdir not in flight; initializing
+29 silly install normalizeTree
+30 silly loadCurrentTree Finishing
+31 silly loadIdealTree Starting
+32 silly install loadIdealTree
+33 silly cloneCurrentTree Starting
+34 silly install cloneCurrentTreeToIdealTree
+35 silly cloneCurrentTree Finishing
+36 silly loadShrinkwrap Starting
+37 silly install loadShrinkwrap
+38 silly loadShrinkwrap Finishing
+39 silly loadAllDepsIntoIdealTree Starting
+40 silly install loadAllDepsIntoIdealTree
+41 silly resolveWithNewModule rails@4.1.0-beta checking installable status
+42 silly cache add args [ 'rails', null ]
+43 verbose cache add spec rails
+44 silly cache add parsed spec Result {
+44 silly cache add   raw: 'rails',
+44 silly cache add   scope: null,
+44 silly cache add   escapedName: 'rails',
+44 silly cache add   name: 'rails',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: 'latest',
+44 silly cache add   type: 'tag' }
+45 silly addNamed rails@latest
+46 verbose addNamed "latest" is being treated as a dist-tag for rails
+47 info addNameTag [ 'rails', 'latest' ]
+48 silly mapToRegistry name rails
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'rails',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   escapedName: 'rails',
+51 silly mapToRegistry   name: 'rails',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/rails
+53 verbose addNameTag registry:https://registry.npmjs.org/rails not in flight; fetching
+54 verbose get https://registry.npmjs.org/rails not expired, no request
+55 silly addNameTag next cb for rails with tag latest
+56 silly addNamed rails@4.1.0-beta
+57 verbose addNamed "4.1.0-beta" is a plain semver version for rails
+58 silly mapToRegistry name rails
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: 'rails',
+61 silly mapToRegistry   scope: null,
+61 silly mapToRegistry   escapedName: 'rails',
+61 silly mapToRegistry   name: 'rails',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri https://registry.npmjs.org/rails
+63 verbose addRemoteTarball https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz not in flight; adding
+64 verbose addRemoteTarball [ 'https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz',
+64 verbose addRemoteTarball   '9eb5552e380e7ad3aaacd1e453e80bdc2566adc4' ]
+65 info retry fetch attempt 1 at 10:22:12 AM
+66 info attempt registry request try #1 at 10:22:12 AM
+67 http fetch GET https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+68 verbose request using bearer token for auth
+69 http fetch 404 https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+70 error fetch failed https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+71 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+72 info retry fetch attempt 2 at 10:22:22 AM
+73 info attempt registry request try #1 at 10:22:22 AM
+74 http fetch GET https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+75 verbose request using bearer token for auth
+76 http fetch 404 https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+77 error fetch failed https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+78 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+79 info retry fetch attempt 3 at 10:23:23 AM
+80 info attempt registry request try #1 at 10:23:23 AM
+81 http fetch GET https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+82 verbose request using bearer token for auth
+83 http fetch 404 https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+84 error fetch failed https://registry.npmjs.org/rails/-/rails-4.1.0-beta.tgz
+85 silly rollbackFailedOptional Starting
+86 silly rollbackFailedOptional Finishing
+87 silly runTopLevelLifecycles Finishing
+88 silly install printInstalled
+89 verbose stack Error: fetch failed with status code 404
+89 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+89 verbose stack     at emitOne (events.js:96:13)
+89 verbose stack     at Request.emit (events.js:188:7)
+89 verbose stack     at Request.onRequestResponse (/usr/local/lib/node_modules/npm/node_modules/request/request.js:954:10)
+89 verbose stack     at emitOne (events.js:96:13)
+89 verbose stack     at ClientRequest.emit (events.js:188:7)
+89 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:473:21)
+89 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+89 verbose stack     at TLSSocket.socketOnData (_http_client.js:362:20)
+89 verbose stack     at emitOne (events.js:96:13)
+90 verbose cwd /Users/sg/Desktop/blog-posts
+91 error Darwin 16.6.0
+92 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "rails"
+93 error node v6.11.0
+94 error npm  v3.10.10
+95 error fetch failed with status code 404
+96 error If you need help, you may report this error at:
+96 error     <https://github.com/npm/npm/issues>
+97 verbose exit [ 1, true ]

@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /Users/sg/.yarn/bin/yarn.js add rails
+
+PATH: 
+  /Users/sg/.rvm/gems/ruby-2.3.3/bin:/Users/sg/.rvm/gems/ruby-2.3.3@global/bin:/Users/sg/.rvm/rubies/ruby-2.3.3/bin:/Users/sg/.rvm/bin:/Users/sg/.yarn/bin:/Users/sg/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rails/-/rails-4.1.0-beta.tgz: Request failed "404 Not Found"
+      at Request.handleRequestError (/Users/sg/.yarn/lib/yarn-cli.js:54448:20)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at Request.onRequestResponse (/Users/sg/.yarn/lib/yarn-cli.js:108740:10)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:473:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+      at TLSSocket.socketOnData (_http_client.js:362:20)
+      at emitOne (events.js:96:13)
