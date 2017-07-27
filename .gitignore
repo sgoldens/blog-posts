@@ -5,6 +5,5 @@
 !.elasticbeanstalk/*.global.yml
 1.pem
 tmp/
-log/
-log/
-log/development.log log/test.log
+log/development.log
+log/test.log
