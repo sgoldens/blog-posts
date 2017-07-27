@@ -192,7 +192,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
-  pg (~> 0.18)
+  pg
   puma
   rack-attack
   rack-cors

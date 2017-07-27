@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bcrypt'
 gem 'rails', '5.0.1'
-gem 'pg', '~> 0.18'
+gem 'pg'
 gem 'puma'
 gem "rack-attack", group: :production
 gem 'rack-cors', :require => 'rack/cors'
