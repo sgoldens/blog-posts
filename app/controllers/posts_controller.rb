@@ -41,6 +41,6 @@ class PostsController < ApiController
   end
 
   def post_params
-    params.permit(:title, :categories, :content, :user, :user_id, :id, :post, :props, :headers, :params, :key)
+    params.permit(:title, :content, :user, :user_id, :id, :post, :props, :headers, :params, :key)
   end
 end

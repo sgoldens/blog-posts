@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :messages
   resources :posts
   post "/signup"        => "users#create"
   get "/posts"          => "posts#index"

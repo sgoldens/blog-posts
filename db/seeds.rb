@@ -16,7 +16,7 @@ p "10 Users created"
 u1 = User.first
 u2 = User.last
 7.times do 
-  Post.create(title: Faker::Commerce.product_name, categories: Faker::Beer.style, content: Faker::Lorem.paragraph(10, true, 4), user: u1)
-  Post.create(title: Faker::Commerce.product_name, categories: Faker::Beer.style, content: Faker::Lorem.paragraph(10, true, 4), user: u2)
+  Post.create(title: Faker::Commerce.product_name, content: Faker::Lorem.paragraph(10, true, 4), user: u1)
+  Post.create(title: Faker::Commerce.product_name, content: Faker::Lorem.paragraph(10, true, 4), user: u2)
 end
 p "14 Posts created across two users"
