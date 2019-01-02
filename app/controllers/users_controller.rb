@@ -1,7 +1,7 @@
 class UsersController < ApiController
 
   def create
-    @user = User.new(post_params)
+    @user = User.first_or_create(post_params)
 
     if @user.save
       allow_token_to_be_used_only_once_for(@user)
@@ -22,9 +22,9 @@ class UsersController < ApiController
   end
 
   def send_auth_token_for_valid_login_of(user)
-    render json: { token: user.token, user: { 
-      user_id: user.id, user_name: user.name, user_email: user.email, user_token: user.token 
-      } 
+    render json: { token: user.token, user: {
+      user_id: user.id, user_name: user.name, user_email: user.email, user_token: user.token
+      }
     }
   end
 
