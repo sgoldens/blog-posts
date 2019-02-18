@@ -18,7 +18,7 @@ gem "activejob"
 gem "rails-html-sanitizer", ">= 1.0.4"
 gem "loofah", ">= 2.2.3"
 gem "rack", ">= 2.0.6"
-gem 'pg'
+gem 'pg', '~> 0.20'
 
 group :development, :test do
   gem 'byebug'
