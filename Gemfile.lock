@@ -92,7 +92,7 @@ GEM
     passenger (6.0.1)
       rack
       rake (>= 0.8.1)
-    pg (0.20.0)
+    pg (0.21.0)
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.6)
