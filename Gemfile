@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'bcrypt'
 gem 'rails', '5.0.1'
-gem 'pg'
 gem 'puma'
 gem "rack-attack", group: :production
 gem 'rack-cors', :require => 'rack/cors'
@@ -19,6 +18,7 @@ gem "activejob"
 gem "rails-html-sanitizer", ">= 1.0.4"
 gem "loofah", ">= 2.2.3"
 gem "rack", ">= 2.0.6"
+gem 'pg'
 
 group :development, :test do
   gem 'byebug'
@@ -40,5 +40,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-ruby "2.6.1"
 
