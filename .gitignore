@@ -5,5 +5,7 @@
 !.elasticbeanstalk/*.global.yml
 1.pem
 tmp/
-log/development.log
-log/test.log
+log/*.log
+config/secrets.yml
+yarn-error.log
+node_modules/

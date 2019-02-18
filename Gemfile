@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'bcrypt'
 gem 'rails', '5.0.1'
-gem 'pg'
 gem 'puma'
 gem "rack-attack", group: :production
 gem 'rack-cors', :require => 'rack/cors'
@@ -12,6 +11,14 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'passenger'
+gem "nokogiri", ">= 1.8.5"
+gem "sprockets", ">= 3.7.2"
+gem "ffi", ">= 1.9.24"
+gem "activejob"
+gem "rails-html-sanitizer", ">= 1.0.4"
+gem "loofah", ">= 2.2.3"
+gem "rack", ">= 2.0.6"
+gem 'pg'
 
 group :development, :test do
   gem 'byebug'
