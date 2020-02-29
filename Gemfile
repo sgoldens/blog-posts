@@ -19,7 +19,7 @@ gem "activejob", ">= 5.0.1"
 gem "rails-html-sanitizer", ">= 1.0.4"
 gem "loofah", ">= 2.2.3"
 gem "rack", ">= 2.0.6"
-gem 'rake', '~> 12.3', '>= 12.3.2'
+gem 'rake', '~> 12.3'
 
 group :development, :test do
   gem 'byebug'
